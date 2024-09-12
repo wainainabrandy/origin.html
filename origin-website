@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORIGIN</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 0;
+            padding: 10px 0;
+            background-color: #0056b3;
+            color: white;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .section {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        footer {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ORIGIN</h1>
+        <p>Your source for essential medical training notes</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#notes">Medical Notes</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About</h2>
+            <p>Welcome to ORIGIN! This site provides a comprehensive collection of medical training notes and resources to assist students and professionals in the medical field. Our goal is to offer well-organized, easy-to-access information to support your studies and professional development.</p>
+        </section>
+
+        <section id="notes" class="section">
+            <h2>Available Medical Notes</h2>
+            <ul>
+                <li><a href="notes/anatomy.pdf" download>Anatomy Overview</a></li>
+                <li><a href="notes/pharmacology.pdf" download>Pharmacology Basics</a></li>
+                <li><a href="notes/pathology.pdf" download>Pathology Fundamentals</a></li>
+                <!-- Add more notes as needed -->
+            </ul>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <p>If you have any questions or need further information, feel free to reach out to us:</p>
+            <p>Email: <a href="mailto:info@origin.com">info@origin.com</a></p>
+            <p>Phone: +123 456 7890</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 ORIGIN. All rights reserved.</p>
+    </footer>
+</body>
+</html>
